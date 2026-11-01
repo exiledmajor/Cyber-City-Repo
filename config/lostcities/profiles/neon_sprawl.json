@@ -26,5 +26,10 @@
     "miniExplosionChance": 0
   },
   "cityspheres": {},
-  "client": {}
+  "client": {
+    "fogRed": 0.24,
+    "fogGreen": 0.045,
+    "fogBlue": 0.34,
+    "fogDensity": 0.035
+  }
 }
