@@ -200,21 +200,9 @@ def main():
     for path in sorted(src.glob("*.schem")):
         try: convert_one(path,out,manifest)
         except Exception as e: errors.append({"file":path.name,"error":str(e)})
-    # Baseline vanilla palette/style and reachable city/world styles.
-    write_json(out/"data"/NS/REG/"palettes"/"neon_palette.json", {"palette":[
-        {"char":"#","block":"minecraft:polished_deepslate"},
-        {"char":"G","block":"minecraft:cyan_stained_glass"},
-        {"char":"M","block":"minecraft:magenta_stained_glass"},
-        {"char":"A","block":"minecraft:ochre_froglight"},
-        {"char":"L","block":"minecraft:sea_lantern"},
-        {"char":"B","block":"minecraft:black_concrete"},
-        {"char":"C","block":"minecraft:oxidized_cut_copper"},
-        {"char":" ","block":"minecraft:air"}
-    ]})
-    write_json(out/"data"/NS/REG/"styles"/"neon_style.json", {"randompalettes":[
-        [{"factor":1.0,"palette":"lostcities:common"}],
-        [{"factor":1.0,"palette":f"{NS}:neon_palette"}]
-    ]})
+    # Use the built-in standard palette style. Each imported building and part
+    # references its own local palette, so stock Lost Cities palette characters
+    # remain untouched for inherited streets, parks, and buildings.
     selectors, multis = [], []
     for item in manifest:
         if item["multibuilding"]:
@@ -224,12 +212,12 @@ def main():
                 selectors.append({"factor":1.5,"value":bid})
     city = {
         "inherit":"lostcities:citystyle_standard",
-        "style":f"{NS}:neon_style",
+        "style":"standard",
         "selectors":{"buildings":selectors,"multibuildings":multis}
     }
     write_json(out/"data"/NS/REG/"citystyles"/"neon_city.json",city)
     write_json(out/"data"/NS/REG/"worldstyles"/"neon_sprawl.json",{
-        "outsidestyle":"lostcities:citystyle_standard",
+        "outsidestyle":"outside",
         "citystyles":[{"factor":1.0,"citystyle":f"{NS}:neon_city"}],
         "multisettings":{"areasize":10,"minimum":1,"maximum":3,"attempts":50}
     })
