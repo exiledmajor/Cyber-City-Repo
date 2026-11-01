@@ -77,16 +77,22 @@ def slugify(name):
 
 def load_schematic(path):
     nbt = read_nbt(path)
+    missing = [k for k in ("Width", "Height", "Length") if k not in nbt]
+    if missing:
+        raise ValueError(f"Missing dimensions {missing}; NBT keys={list(nbt.keys())}")
     w, h, l = (int(nbt[k]) for k in ("Width", "Height", "Length"))
     if min(w,h,l) < 1 or max(w,h,l) > 2048:
         raise ValueError(f"Unreasonable dimensions {w}x{h}x{l}")
-    pal = nbt["Palette"]
-    palette = {str(k): int(v) for k,v in pal.items()}
-    raw = nbt["BlockData"]
-    indices = varints(raw)
+    # Sponge v2 stores Palette/BlockData at schematic root. v3 nests
+    # Palette/Data/BlockEntities under Schematic.Blocks.
+    container = nbt["Blocks"] if "Blocks" in nbt else nbt
+    palette_tag = container["Palette"] if "Palette" in container else nbt["Palette"]
+    data_tag = container["Data"] if "Data" in container else (nbt["BlockData"] if "BlockData" in nbt else container["BlockData"])
+    palette = {str(k): int(v) for k,v in palette_tag.items()}
+    indices = varints(data_tag)
     expected = w*h*l
     if len(indices) != expected:
-        raise ValueError(f"BlockData has {len(indices)} entries; expected {expected}")
+        raise ValueError(f"Block data has {len(indices)} entries; expected {expected}")
     states = [None] * (max(palette.values(), default=-1)+1)
     for state, idx in palette.items():
         states[idx] = vanilla_state(state)
@@ -94,7 +100,8 @@ def load_schematic(path):
     # Sponge linear order: x fastest, then z, then y.
     def get(x,y,z):
         return blocks[x + z*w + y*w*l]
-    return w,h,l,get,int(nbt["Version"]) if "Version" in nbt else 2, len(nbt["BlockEntities"]) if "BlockEntities" in nbt else 0
+    be = container["BlockEntities"] if "BlockEntities" in container else (nbt["BlockEntities"] if "BlockEntities" in nbt else [])
+    return w,h,l,get,int(nbt["Version"]) if "Version" in nbt else 2, len(be)
 
 def char_map(states):
     chars = {}
