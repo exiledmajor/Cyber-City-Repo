@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "",
+  "rubble": "",
   "refpalette": "neoncity:neon_sprawl_02_vertical_slum_block_palette",
   "minfloors": 8,
   "maxfloors": 8,

@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "",
+  "rubble": "",
   "refpalette": "neoncity:cyberpunk_buildings_by_mine67_palette",
   "minfloors": 26,
   "maxfloors": 26,

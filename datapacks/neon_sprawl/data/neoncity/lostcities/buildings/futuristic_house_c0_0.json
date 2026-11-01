@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "^",
+  "rubble": "^",
   "refpalette": "neoncity:futuristic_house_palette",
   "minfloors": 4,
   "maxfloors": 4,

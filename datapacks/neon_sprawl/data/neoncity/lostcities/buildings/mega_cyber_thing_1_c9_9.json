@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "",
+  "rubble": "",
   "refpalette": "neoncity:mega_cyber_thing_1_palette",
   "minfloors": 53,
   "maxfloors": 53,

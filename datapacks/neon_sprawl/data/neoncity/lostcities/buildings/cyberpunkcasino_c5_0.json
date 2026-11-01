@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "&",
+  "rubble": "&",
   "refpalette": "neoncity:cyberpunkcasino_palette",
   "minfloors": 45,
   "maxfloors": 45,

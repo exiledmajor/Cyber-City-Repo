@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "",
+  "rubble": "",
   "refpalette": "neoncity:hotguycyberpunk_palette",
   "minfloors": 9,
   "maxfloors": 9,

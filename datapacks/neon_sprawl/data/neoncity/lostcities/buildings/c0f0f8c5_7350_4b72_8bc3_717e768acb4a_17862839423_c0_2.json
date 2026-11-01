@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "1",
+  "rubble": "1",
   "refpalette": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_palette",
   "minfloors": 19,
   "maxfloors": 19,

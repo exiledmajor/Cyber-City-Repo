@@ -1,6 +1,6 @@
 {
-  "filler": "#",
-  "rubble": "#",
+  "filler": "1",
+  "rubble": "1",
   "refpalette": "neoncity:neon_sprawl_corporate_megatower_01_palette",
   "minfloors": 16,
   "maxfloors": 16,
