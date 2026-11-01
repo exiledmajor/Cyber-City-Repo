@@ -84,10 +84,77 @@ def slugify(name):
     s = re.sub(r"[^a-z0-9_]+", "_", Path(name).stem.lower()).strip("_")
     return (s[:48] or "imported_structure")
 
+def decode_litematic(nbt):
+    regions = nbt["Regions"]
+    parsed = []
+    for region_name, region in regions.items():
+        pos, size = region["Position"], region["Size"]
+        px, py, pz = (int(pos[k]) for k in ("x","y","z"))
+        sx, sy, sz = (int(size[k]) for k in ("x","y","z"))
+        dx, dy, dz = abs(sx), abs(sy), abs(sz)
+        if min(dx,dy,dz) < 1:
+            continue
+        palette = []
+        for entry in region["BlockStatePalette"]:
+            name = str(entry["Name"])
+            props = entry["Properties"] if "Properties" in entry else {}
+            if props:
+                state = name + "[" + ",".join(f"{k}={props[k]}" for k in sorted(props.keys())) + "]"
+            else:
+                state = name
+            palette.append(vanilla_state(state))
+        longs = [int(v) & ((1 << 64)-1) for v in region["BlockStates"]]
+        bits = max(2, (len(palette)-1).bit_length())
+        mask = (1 << bits)-1
+        volume = dx*dy*dz
+        values = []
+        for index in range(volume):
+            bit_index = index*bits
+            li, offset = divmod(bit_index,64)
+            value = longs[li] >> offset
+            if offset+bits > 64:
+                value |= longs[li+1] << (64-offset)
+            palette_index = value & mask
+            values.append(palette[palette_index] if palette_index < len(palette) else "minecraft:air")
+        # Negative Litematica sizes indicate a mirrored axis.
+        minx, maxx = (px, px+sx-1) if sx > 0 else (px+sx+1, px)
+        miny, maxy = (py, py+sy-1) if sy > 0 else (py+sy+1, py)
+        minz, maxz = (pz, pz+sz-1) if sz > 0 else (pz+sz+1, pz)
+        parsed.append((px,py,pz,sx,sy,sz,dx,dy,dz,values,
+                       minx,maxx,miny,maxy,minz,maxz,
+                       len(region["TileEntities"]) if "TileEntities" in region else 0))
+    if not parsed:
+        raise ValueError("Litematica file has no non-empty regions")
+    minx=min(r[10] for r in parsed); maxx=max(r[11] for r in parsed)
+    miny=min(r[12] for r in parsed); maxy=max(r[13] for r in parsed)
+    minz=min(r[14] for r in parsed); maxz=max(r[15] for r in parsed)
+    w,h,l=maxx-minx+1,maxy-miny+1,maxz-minz+1
+    if max(w,h,l)>2048:
+        raise ValueError(f"Unreasonable Litematica bounds {w}x{h}x{l}")
+    blocks=["minecraft:air"]*(w*h*l)
+    block_entities=0
+    for r in parsed:
+        px,py,pz,sx,sy,sz,dx,dy,dz,values,*rest=r
+        rx0,rx1,ry0,ry1,rz0,rz1,be=r[10:]
+        block_entities += be
+        for y in range(dy):
+            gy=(py+y if sy>0 else py-y)-miny
+            for z in range(dz):
+                gz=(pz+z if sz>0 else pz-z)-minz
+                for x in range(dx):
+                    gx=(px+x if sx>0 else px-x)-minx
+                    source=x+z*dx+y*dx*dz
+                    blocks[gx+gz*w+gy*w*l]=values[source]
+    def get(x,y,z):
+        return blocks[x+z*w+y*w*l]
+    return w,h,l,get,int(nbt["Version"]),block_entities
+
 def load_schematic(path):
     nbt = read_nbt(path)
     missing = [k for k in ("Width", "Height", "Length") if k not in nbt]
     if missing:
+        if "Regions" in nbt and "Metadata" in nbt:
+            return decode_litematic(nbt)
         raise ValueError(f"Missing dimensions {missing}; NBT keys={list(nbt.keys())}")
     w, h, l = (int(nbt[k]) for k in ("Width", "Height", "Length"))
     if min(w,h,l) < 1 or max(w,h,l) > 2048:
