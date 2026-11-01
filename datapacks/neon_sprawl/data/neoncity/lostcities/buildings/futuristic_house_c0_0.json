@@ -1,0 +1,32 @@
+{
+  "filler": "#",
+  "rubble": "#",
+  "refpalette": "neoncity:futuristic_house_palette",
+  "minfloors": 4,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:futuristic_house_c0_0_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:futuristic_house_c0_0_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:futuristic_house_c0_0_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:futuristic_house_c0_0_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:futuristic_house_c0_0_f4",
+      "top": true
+    }
+  ]
+}

@@ -2,7 +2,12 @@
   "inherit": "lostcities:citystyle_standard",
   "style": "standard",
   "selectors": {
-    "buildings": [],
+    "buildings": [
+      {
+        "factor": 1.5,
+        "value": "neoncity:futuristic_house_c0_0"
+      }
+    ],
     "multibuildings": [
       {
         "factor": 2.0,

@@ -361,6 +361,26 @@
       "multibuilding": "neoncity:cyberpunkcasino_multi"
     },
     {
+      "file": "futuristic-house.schem",
+      "sha256": "bd754eeb8fd982bf8ff6f90b55526a70299fb973b61675bf2ed71deceff117c1",
+      "sponge_version": 7,
+      "width": 11,
+      "height": 27,
+      "length": 11,
+      "chunk_footprint": [
+        1,
+        1
+      ],
+      "six_block_segments": 5,
+      "palette_states": 94,
+      "block_entities_ignored": 18,
+      "vanilla_only": true,
+      "buildings": [
+        "neoncity:futuristic_house_c0_0"
+      ],
+      "multibuilding": null
+    },
+    {
       "file": "hotguycyberpunk.schem",
       "sha256": "2709d73497b60b8fdaf8b38f447efe98f469a927589f7959b4c579b22c6c8f76",
       "sponge_version": 3,
@@ -652,10 +672,5 @@
       "multibuilding": "neoncity:ussr_gosplan_cyberpunk_multi"
     }
   ],
-  "errors": [
-    {
-      "file": "futuristic-house.schem",
-      "error": "Missing dimensions ['Width', 'Height', 'Length']; NBT keys=['MinecraftDataVersion', 'Version', 'Metadata', 'Regions', 'SubVersion']"
-    }
-  ]
+  "errors": []
 }
