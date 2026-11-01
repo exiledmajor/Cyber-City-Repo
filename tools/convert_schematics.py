@@ -126,7 +126,7 @@ def convert_one(path, out, manifest):
     cmap = char_map(all_states)
     palette_id = f"{NS}:{slug}_palette"
     palette_entries = [{"char": ch, "block": state} for state,ch in sorted(cmap.items(), key=lambda kv: kv[1])]
-    write_json(out/"data"/NS/REG/"palettes"/f"{slug}.json", {"palette": palette_entries})
+    write_json(out/"data"/NS/REG/"palettes"/f"{slug}_palette.json", {"palette": palette_entries})
     building_ids = []
     for cx in range(nx):
         for cz in range(nz):
