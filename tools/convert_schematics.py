@@ -73,7 +73,21 @@ def vanilla_state(state):
     if ":" not in state:
         state = "minecraft:" + state
     if state.startswith("minecraft:"):
-        return "minecraft:structure_void" if state.split("[",1)[0] in AIR_NAMES else state
+        base, sep, props = state.partition("[")
+        if base in AIR_NAMES:
+            return "minecraft:structure_void"
+        # Backport newer vanilla content to blocks available in MC 1.21.1.
+        if base.startswith("minecraft:pale_oak_"):
+            base = base.replace("minecraft:pale_oak_", "minecraft:dark_oak_", 1)
+        elif base in {"minecraft:pale_moss_block", "minecraft:pale_moss_carpet"}:
+            base = "minecraft:moss_block" if base.endswith("_block") else "minecraft:moss_carpet"
+        elif base.startswith("minecraft:resin_"):
+            base = "minecraft:orange_concrete"
+        elif base in {"minecraft:creaking_heart"}:
+            base = "minecraft:dark_oak_log"
+        elif base in {"minecraft:open_eyeblossom", "minecraft:closed_eyeblossom"}:
+            base = "minecraft:flowering_azalea"
+        return base + (sep + props if sep else "")
     low = state.lower()
     for pattern, replacement in FALLBACKS:
         if re.search(pattern, low):
@@ -147,7 +161,7 @@ def decode_litematic(nbt):
                     blocks[gx+gz*w+gy*w*l]=values[source]
     def get(x,y,z):
         return blocks[x+z*w+y*w*l]
-    return w,h,l,get,int(nbt["Version"]),block_entities
+    return w,h,l,get,int(nbt["Version"]),block_entities,"litematica",int(nbt["MinecraftDataVersion"])
 
 def load_schematic(path):
     nbt = read_nbt(path)
@@ -177,7 +191,31 @@ def load_schematic(path):
     def get(x,y,z):
         return blocks[x + z*w + y*w*l]
     be = container["BlockEntities"] if "BlockEntities" in container else (nbt["BlockEntities"] if "BlockEntities" in nbt else [])
-    return w,h,l,get,int(nbt["Version"]) if "Version" in nbt else 2, len(be)
+    return w,h,l,get,int(nbt["Version"]) if "Version" in nbt else 2, len(be), ("sponge_v3" if "Blocks" in nbt else "sponge_v2"), int(nbt["DataVersion"]) if "DataVersion" in nbt else 0
+
+def choose_filler(cmap):
+    preferred = [
+        "minecraft:polished_deepslate", "minecraft:deepslate_bricks",
+        "minecraft:stone_bricks", "minecraft:black_concrete",
+        "minecraft:gray_concrete", "minecraft:iron_block",
+        "minecraft:polished_blackstone", "minecraft:bricks",
+        "minecraft:stone", "minecraft:deepslate", "minecraft:andesite"
+    ]
+    for state in preferred:
+        if state in cmap:
+            return state
+    excluded = ("_slab", "_stairs", "_fence", "_wall", "_pane", "_glass",
+                "_trapdoor", "_door", "_button", "_pressure_plate", "_sign",
+                "_banner", "_torch", "_rod", "_chain", "_rail", "_carpet",
+                "_leaves", "_sapling", "_flower", "_plant", "_pot", "_head",
+                "_skull", "_bed", "_chest", "_barrel", "_shulker_box",
+                "_grindstone", "_lever", "_ladder", "_scaffolding", "_vine",
+                "_lichen", "_coral", "_bamboo", "_water", "_lava", "_air")
+    for state in sorted(cmap):
+        base = state.split("[",1)[0]
+        if base not in AIR_NAMES and base != "minecraft:structure_void" and not base.endswith(excluded):
+            return state
+    return "minecraft:polished_deepslate"
 
 def char_map(states):
     chars = {}
@@ -200,13 +238,15 @@ def write_json(path, obj):
     path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 def convert_one(path, out, manifest):
-    w,h,l,get,version,block_entities = load_schematic(path)
+    w,h,l,get,version,block_entities,source_format,data_version = load_schematic(path)
     slug = slugify(path.name)
     nx, nz = math.ceil(w/16), math.ceil(l/16)
     floors = max(1, math.ceil(h/6))
     all_states = {get(x,y,z) for y in range(h) for z in range(l) for x in range(w)}
     all_states.add("minecraft:air")
     cmap = char_map(all_states)
+    filler_state = choose_filler(cmap)
+    filler_char = cmap[filler_state]
     palette_id = f"{NS}:{slug}_palette"
     palette_entries = [{"char": ch, "block": state} for state,ch in sorted(cmap.items(), key=lambda kv: kv[1])]
     write_json(out/"data"/NS/REG/"palettes"/f"{slug}_palette.json", {"palette": palette_entries})
@@ -250,7 +290,7 @@ def convert_one(path, out, manifest):
                     part_refs.append(entry)
                 part_refs.append({"part":part_ids[-1], "top":True})
             write_json(out/"data"/NS/REG/"buildings"/f"{slug}_c{cx}_{cz}.json", {
-                "filler":"#", "rubble":"#", "refpalette":palette_id,
+                "filler":filler_char, "rubble":filler_char, "refpalette":palette_id,
                 "minfloors":normal, "maxfloors":normal,
                 "mincellars":0, "maxcellars":0, "overrideFloors":True,
                 "parts":part_refs
@@ -264,7 +304,7 @@ def convert_one(path, out, manifest):
         })
     manifest.append({
         "file":path.name, "sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
-        "sponge_version":version, "width":w, "height":h, "length":l,
+        "source_format":source_format, "source_version":version, "minecraft_data_version":data_version, "filler_block":filler_state, "width":w, "height":h, "length":l,
         "chunk_footprint":[nx,nz], "six_block_segments":floors,
         "palette_states":len(cmap), "block_entities_ignored":block_entities,
         "vanilla_only":True, "buildings":building_ids, "multibuilding":multi_id
