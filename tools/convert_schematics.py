@@ -124,7 +124,9 @@ def vanilla_state(state):
     low = state.lower()
     for pattern, replacement in FALLBACKS:
         if re.search(pattern, low):
+            BLOCK_FALLBACKS[state] = replacement
             return replacement
+    BLOCK_FALLBACKS[state] = "minecraft:polished_deepslate"
     return "minecraft:polished_deepslate"
 
 def slugify(name):
