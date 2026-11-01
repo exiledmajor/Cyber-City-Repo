@@ -5,25 +5,37 @@ on:
   push:
     branches:
       - integration/lost-cities-schematics
+      - main
     paths:
       - "schematics/source/**"
       - "tools/**"
       - "datapacks/neon_sprawl/**"
       - ".github/workflows/build-datapack.yml"
+  workflow_run:
+    workflows: ["Sync source schematics"]
+    types: [completed]
+    branches:
+      - main
+      - integration/lost-cities-schematics
 
 permissions:
   contents: write
 
 concurrency:
-  group: neon-sprawl-build-${{ github.ref }}
+  group: neon-sprawl-build-${{ github.event.workflow_run.head_branch || github.ref_name }}
   cancel-in-progress: true
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    env:
+      TARGET_BRANCH: ${{ github.event.workflow_run.head_branch || github.ref_name }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -71,8 +83,8 @@ jobs:
             echo "Generated datapack assets are already current."
           else
             git commit -m "Build Neon Sprawl assets from source schematics"
-            git pull --rebase origin "$GITHUB_REF_NAME"
-            git push
+            git pull --rebase origin "$TARGET_BRANCH"
+            git push origin "HEAD:$TARGET_BRANCH"
           fi
 
       - name: Upload datapack ZIP
