@@ -19,6 +19,7 @@ NS = "neoncity"
 REG = "lostcities"
 CHARS = list("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~")
 AIR_NAMES = {"minecraft:air", "minecraft:cave_air", "minecraft:void_air"}
+BLOCK_FALLBACKS = {}
 FALLBACKS = [
     ("glass", "minecraft:cyan_stained_glass"),
     ("neon|light|lamp", "minecraft:sea_lantern"),
@@ -76,18 +77,50 @@ def vanilla_state(state):
         base, sep, props = state.partition("[")
         if base in AIR_NAMES:
             return "minecraft:structure_void"
+        original = state
+        drop_properties = False
         # Backport newer vanilla content to blocks available in MC 1.21.1.
         if base.startswith("minecraft:pale_oak_"):
             base = base.replace("minecraft:pale_oak_", "minecraft:dark_oak_", 1)
         elif base in {"minecraft:pale_moss_block", "minecraft:pale_moss_carpet"}:
             base = "minecraft:moss_block" if base.endswith("_block") else "minecraft:moss_carpet"
+            drop_properties = True
         elif base.startswith("minecraft:resin_"):
             base = "minecraft:orange_concrete"
-        elif base in {"minecraft:creaking_heart"}:
+            drop_properties = True
+        elif base == "minecraft:creaking_heart":
             base = "minecraft:dark_oak_log"
+            props = ",".join(p for p in props.rstrip("]").split(",") if p.startswith("axis="))
+            drop_properties = not props
         elif base in {"minecraft:open_eyeblossom", "minecraft:closed_eyeblossom"}:
             base = "minecraft:flowering_azalea"
-        return base + (sep + props if sep else "")
+            drop_properties = True
+        elif base == "minecraft:grass":
+            base = "minecraft:short_grass"
+            drop_properties = True
+        elif base.endswith("_shelf"):
+            base = "minecraft:bookshelf"
+            drop_properties = True
+        elif base == "minecraft:exposed_lightning_rod":
+            base = "minecraft:lightning_rod"
+        elif base.endswith("_copper_bars"):
+            base = "minecraft:iron_bars"
+        elif base.endswith("_copper_chain"):
+            base = "minecraft:chain"
+        elif base.endswith("_copper_trapdoor"):
+            base = "minecraft:iron_trapdoor"
+        elif base.endswith("_copper_door"):
+            base = "minecraft:iron_door"
+        elif base.endswith("_chiseled_copper"):
+            base = base.replace("_chiseled_copper", "_cut_copper")
+            drop_properties = True
+        elif base.endswith("_cut_copper_stairs") or base.endswith("_cut_copper_slab"):
+            base = base.rsplit("_",1)[0]
+            drop_properties = True
+        result = base + (sep + props if sep and not drop_properties else "")
+        if result != original:
+            BLOCK_FALLBACKS[original] = result
+        return result
     low = state.lower()
     for pattern, replacement in FALLBACKS:
         if re.search(pattern, low):
@@ -238,6 +271,7 @@ def write_json(path, obj):
     path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 def convert_one(path, out, manifest):
+    BLOCK_FALLBACKS.clear()
     w,h,l,get,version,block_entities,source_format,data_version = load_schematic(path)
     slug = slugify(path.name)
     nx, nz = math.ceil(w/16), math.ceil(l/16)
@@ -306,7 +340,7 @@ def convert_one(path, out, manifest):
         "file":path.name, "sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
         "source_format":source_format, "source_version":version, "minecraft_data_version":data_version, "filler_block":filler_state, "width":w, "height":h, "length":l,
         "chunk_footprint":[nx,nz], "six_block_segments":floors,
-        "palette_states":len(cmap), "block_entities_ignored":block_entities,
+        "palette_states":len(cmap), "block_fallbacks":dict(BLOCK_FALLBACKS), "block_entities_ignored":block_entities,
         "vanilla_only":True, "buildings":building_ids, "multibuilding":multi_id
     })
 
