@@ -35,8 +35,17 @@ def unpack(v):
 
 def root_compound(nbt):
     root = nbt
-    if hasattr(root, "keys") and "Schematic" in root and hasattr(root["Schematic"], "keys"):
-        root = root["Schematic"]
+    # nbtlib exposes the named root tag as an empty-string child in some
+    # versions; Sponge v3 then wraps its payload in a Schematic compound.
+    changed = True
+    while changed and hasattr(root, "keys"):
+        changed = False
+        if "" in root and hasattr(root[""], "keys"):
+            root = root[""]
+            changed = True
+        elif "Schematic" in root and hasattr(root["Schematic"], "keys"):
+            root = root["Schematic"]
+            changed = True
     return root
 
 def read_nbt(path):
