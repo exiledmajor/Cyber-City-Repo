@@ -91,6 +91,8 @@ def vanilla_state(state):
         elif base == "minecraft:creaking_heart":
             base = "minecraft:dark_oak_log"
             props = ",".join(p for p in props.rstrip("]").split(",") if p.startswith("axis="))
+            if props:
+                props += "]"
             drop_properties = not props
         elif base in {"minecraft:open_eyeblossom", "minecraft:closed_eyeblossom"}:
             base = "minecraft:flowering_azalea"
