@@ -6,7 +6,7 @@
     "landscapeType": "default",
     "buildingChance": 0.78,
     "buildingMinFloors": 2,
-    "buildingMaxFloors": 16,
+    "buildingMaxFloors": 60,
     "buildingMinFloorsChance": 5,
     "buildingMaxFloorsChance": 12,
     "ruinChance": 0,
