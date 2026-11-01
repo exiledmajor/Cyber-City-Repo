@@ -1,0 +1,228 @@
+{
+  "filler": "#",
+  "rubble": "#",
+  "refpalette": "neoncity:mega_cyber_thing_1_palette",
+  "minfloors": 53,
+  "maxfloors": 53,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f9",
+      "floor": 9
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f10",
+      "floor": 10
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f11",
+      "floor": 11
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f12",
+      "floor": 12
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f13",
+      "floor": 13
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f14",
+      "floor": 14
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f15",
+      "floor": 15
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f16",
+      "floor": 16
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f17",
+      "floor": 17
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f18",
+      "floor": 18
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f19",
+      "floor": 19
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f20",
+      "floor": 20
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f21",
+      "floor": 21
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f22",
+      "floor": 22
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f23",
+      "floor": 23
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f24",
+      "floor": 24
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f25",
+      "floor": 25
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f26",
+      "floor": 26
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f27",
+      "floor": 27
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f28",
+      "floor": 28
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f29",
+      "floor": 29
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f30",
+      "floor": 30
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f31",
+      "floor": 31
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f32",
+      "floor": 32
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f33",
+      "floor": 33
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f34",
+      "floor": 34
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f35",
+      "floor": 35
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f36",
+      "floor": 36
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f37",
+      "floor": 37
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f38",
+      "floor": 38
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f39",
+      "floor": 39
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f40",
+      "floor": 40
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f41",
+      "floor": 41
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f42",
+      "floor": 42
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f43",
+      "floor": 43
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f44",
+      "floor": 44
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f45",
+      "floor": 45
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f46",
+      "floor": 46
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f47",
+      "floor": 47
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f48",
+      "floor": 48
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f49",
+      "floor": 49
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f50",
+      "floor": 50
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f51",
+      "floor": 51
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f52",
+      "floor": 52
+    },
+    {
+      "part": "neoncity:mega_cyber_thing_1_c6_2_f53",
+      "top": true
+    }
+  ]
+}

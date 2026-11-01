@@ -1,0 +1,176 @@
+{
+  "filler": "#",
+  "rubble": "#",
+  "refpalette": "neoncity:ussr_gosplan_cyberpunk_palette",
+  "minfloors": 40,
+  "maxfloors": 40,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f9",
+      "floor": 9
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f10",
+      "floor": 10
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f11",
+      "floor": 11
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f12",
+      "floor": 12
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f13",
+      "floor": 13
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f14",
+      "floor": 14
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f15",
+      "floor": 15
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f16",
+      "floor": 16
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f17",
+      "floor": 17
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f18",
+      "floor": 18
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f19",
+      "floor": 19
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f20",
+      "floor": 20
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f21",
+      "floor": 21
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f22",
+      "floor": 22
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f23",
+      "floor": 23
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f24",
+      "floor": 24
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f25",
+      "floor": 25
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f26",
+      "floor": 26
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f27",
+      "floor": 27
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f28",
+      "floor": 28
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f29",
+      "floor": 29
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f30",
+      "floor": 30
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f31",
+      "floor": 31
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f32",
+      "floor": 32
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f33",
+      "floor": 33
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f34",
+      "floor": 34
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f35",
+      "floor": 35
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f36",
+      "floor": 36
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f37",
+      "floor": 37
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f38",
+      "floor": 38
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f39",
+      "floor": 39
+    },
+    {
+      "part": "neoncity:ussr_gosplan_cyberpunk_c5_3_f40",
+      "top": true
+    }
+  ]
+}

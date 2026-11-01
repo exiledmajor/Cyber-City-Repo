@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "neoncity:neon_sprawl_02_vertical_slum_block_c0_0",
+      "neoncity:neon_sprawl_02_vertical_slum_block_c0_1"
+    ],
+    [
+      "neoncity:neon_sprawl_02_vertical_slum_block_c1_0",
+      "neoncity:neon_sprawl_02_vertical_slum_block_c1_1"
+    ]
+  ]
+}

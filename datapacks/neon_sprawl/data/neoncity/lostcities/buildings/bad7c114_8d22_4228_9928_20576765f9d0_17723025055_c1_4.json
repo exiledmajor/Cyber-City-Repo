@@ -1,0 +1,88 @@
+{
+  "filler": "#",
+  "rubble": "#",
+  "refpalette": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_palette",
+  "minfloors": 18,
+  "maxfloors": 18,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f9",
+      "floor": 9
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f10",
+      "floor": 10
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f11",
+      "floor": 11
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f12",
+      "floor": 12
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f13",
+      "floor": 13
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f14",
+      "floor": 14
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f15",
+      "floor": 15
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f16",
+      "floor": 16
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f17",
+      "floor": 17
+    },
+    {
+      "part": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_c1_4_f18",
+      "top": true
+    }
+  ]
+}

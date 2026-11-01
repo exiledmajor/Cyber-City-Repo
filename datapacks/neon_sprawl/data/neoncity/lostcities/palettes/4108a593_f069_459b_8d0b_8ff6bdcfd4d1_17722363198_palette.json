@@ -1,0 +1,172 @@
+{
+  "palette": [
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:andesite"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:basalt"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:bedrock"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:black_concrete"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:black_concrete_powder"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:black_terracotta"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:black_wool"
+    },
+    {
+      "char": "8",
+      "block": "minecraft:blackstone"
+    },
+    {
+      "char": "9",
+      "block": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:coal_ore"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "H",
+      "block": "minecraft:dead_brain_coral_block"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:dead_horn_coral_block"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:dead_tube_coral_block"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:diorite"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:gravel"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:gray_concrete"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:gray_concrete_powder"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:netherite_block"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:polished_basalt"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:polished_blackstone"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:polished_diorite"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:snow_block"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:white_wool"
+    }
+  ]
+}

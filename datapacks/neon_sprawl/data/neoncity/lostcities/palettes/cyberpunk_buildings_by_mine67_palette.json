@@ -1,0 +1,1948 @@
+{
+  "palette": [
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "!",
+      "block": "minecraft:black_concrete_powder"
+    },
+    {
+      "char": "#",
+      "block": "minecraft:black_stained_glass"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:black_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "%",
+      "block": "minecraft:black_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "+",
+      "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": ",",
+      "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "-",
+      "block": "minecraft:black_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": ".",
+      "block": "minecraft:black_terracotta"
+    },
+    {
+      "char": "/",
+      "block": "minecraft:black_wool"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:acacia_fence[east=false,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:acacia_fence[east=false,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:acacia_fence[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:acacia_fence[east=true,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "8",
+      "block": "minecraft:acacia_planks"
+    },
+    {
+      "char": "9",
+      "block": "minecraft:acacia_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:blackstone"
+    },
+    {
+      "char": ";",
+      "block": "minecraft:blackstone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "<",
+      "block": "minecraft:blue_terracotta"
+    },
+    {
+      "char": "=",
+      "block": "minecraft:brick_stairs[facing=east,half=bottom,shape=inner_left,waterlogged=false]"
+    },
+    {
+      "char": ">",
+      "block": "minecraft:brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "?",
+      "block": "minecraft:brick_stairs[facing=east,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "@",
+      "block": "minecraft:brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:ancient_debris"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:andesite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:andesite_stairs[facing=east,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:andesite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "H",
+      "block": "minecraft:andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:andesite_stairs[facing=south,half=bottom,shape=outer_left,waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:andesite_stairs[facing=south,half=bottom,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:andesite_stairs[facing=south,half=top,shape=inner_left,waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:andesite_stairs[facing=south,half=top,shape=inner_right,waterlogged=false]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:andesite_stairs[facing=south,half=top,shape=outer_left,waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:andesite_stairs[facing=south,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:andesite_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:andesite_wall[east=low,north=low,south=tall,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:andesite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:andesite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:andesite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=tall]"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:anvil[facing=north]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:anvil[facing=south]"
+    },
+    {
+      "char": "[",
+      "block": "minecraft:brick_stairs[facing=north,half=bottom,shape=inner_left,waterlogged=false]"
+    },
+    {
+      "char": "]",
+      "block": "minecraft:brick_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=false]"
+    },
+    {
+      "char": "^",
+      "block": "minecraft:brick_stairs[facing=north,half=bottom,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "_",
+      "block": "minecraft:brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:basalt[axis=x]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:basalt[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:basalt[axis=z]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:bedrock"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:bell[attachment=floor,facing=east,powered=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:bell[attachment=floor,facing=east,powered=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:bell[attachment=floor,facing=north,powered=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:bell[attachment=floor,facing=north,powered=true]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:birch_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:birch_fence[east=false,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:birch_fence[east=false,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:birch_fence[east=false,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:birch_fence[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:birch_fence[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:birch_fence[east=true,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:birch_fence_gate[facing=south,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:birch_fence_gate[facing=west,in_wall=false,open=false,powered=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:birch_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:birch_wall_sign[facing=east,waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:birch_wall_sign[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:birch_wall_sign[facing=west,waterlogged=false]"
+    },
+    {
+      "char": "z",
+      "block": "minecraft:black_concrete"
+    },
+    {
+      "char": "{",
+      "block": "minecraft:brick_stairs[facing=south,half=bottom,shape=inner_left,waterlogged=false]"
+    },
+    {
+      "char": "|",
+      "block": "minecraft:brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "}",
+      "block": "minecraft:brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:brick_stairs[facing=west,half=bottom,shape=outer_left,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:brick_stairs[facing=west,half=bottom,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:brown_glazed_terracotta[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:campfire[facing=east,lit=true,signal_fire=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:chain[axis=y,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:clay"
+    },
+    {
+      "char": "",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "",
+      "block": "minecraft:coal_ore"
+    },
+    {
+      "char": "",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_stairs[facing=north,half=top,shape=inner_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_fence_gate[facing=south,in_wall=false,open=true,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_hyphae[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_planks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:crimson_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cyan_glazed_terracotta[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=left,open=false,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=left,open=false,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=right,open=false,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=true,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_fence[east=true,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_log[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_wall_sign[facing=east,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_wall_sign[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dark_oak_wall_sign[facing=west,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=false,power=13]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=false,power=4]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=false,power=5]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=false,power=6]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=false,power=7]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:daylight_detector[inverted=true,power=0]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dispenser[facing=down,triggered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dispenser[facing=east,triggered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dispenser[facing=north,triggered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dispenser[facing=up,triggered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dispenser[facing=west,triggered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:dried_kelp_block"
+    },
+    {
+      "char": "",
+      "block": "minecraft:end_rod[facing=east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:end_rod[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:end_rod[facing=south]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:end_rod[facing=west]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:ender_chest[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:ender_chest[facing=south,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:furnace[facing=east,lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:furnace[facing=north,lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:furnace[facing=south,lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:furnace[facing=west,lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gold_ore"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=south,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "",
+      "block": "minecraft:grass_block[snowy=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gravel"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_carpet"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_concrete"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_concrete_powder"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_glazed_terracotta[facing=east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_wall_banner[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_wall_banner[facing=south]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:green_concrete_powder"
+    },
+    {
+      "char": "",
+      "block": "minecraft:green_glazed_terracotta[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:green_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:grindstone[face=floor,facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:hopper[enabled=true,facing=down]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:hopper[enabled=true,facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:hopper[enabled=true,facing=south]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:hopper[enabled=true,facing=west]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:infested_stone_bricks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=east,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=north,half=upper,hinge=right,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=west,half=lower,hinge=right,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=west,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_door[facing=west,half=upper,hinge=right,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_ore"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:jukebox[has_record=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:jungle_door[facing=east,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:jungle_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:jungle_door[facing=south,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:jungle_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=ceiling,facing=east,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=ceiling,facing=north,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=ceiling,facing=south,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=ceiling,facing=west,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=floor,facing=east,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=floor,facing=south,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=floor,facing=south,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=floor,facing=west,powered=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=wall,facing=east,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=wall,facing=north,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=wall,facing=south,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lever[face=wall,facing=west,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_concrete"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_wall_banner[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lime_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:lodestone"
+    },
+    {
+      "char": "",
+      "block": "minecraft:magenta_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:mossy_stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:mossy_stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:mossy_stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:mossy_stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:nether_brick_fence[east=false,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:nether_brick_fence[east=true,north=false,south=false,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:nether_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:nether_brick_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:nether_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:note_block[instrument=bass,note=0,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_wood[axis=x]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:oak_wood[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:observer[facing=down,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:obsidian"
+    },
+    {
+      "char": "",
+      "block": "minecraft:orange_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston[extended=false,facing=east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston[extended=false,facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston[extended=false,facing=south]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston[extended=true,facing=east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston[extended=true,facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston_head[facing=east,short=false,type=normal]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:piston_head[facing=north,short=false,type=normal]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:podzol[snowy=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_basalt[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_blackstone_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=east,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=north,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=south,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=west,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_diorite_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=east,half=top,shape=inner_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=south,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=west,half=top,shape=inner_left,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:polished_granite_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:powered_rail[powered=false,shape=east_west]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:pumpkin"
+    },
+    {
+      "char": "",
+      "block": "minecraft:purple_glazed_terracotta[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:purple_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:purple_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:quartz_pillar[axis=x]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:rail[shape=north_east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:rail[shape=north_south]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:rail[shape=north_west]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:rail[shape=south_east]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:rail[shape=south_west]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_ore[lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smoker[facing=north,lit=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_stairs[facing=east,half=bottom,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_stairs[facing=west,half=bottom,shape=outer_left,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:soul_sand"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wall_sign[facing=east,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wall_sign[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wall_sign[facing=south,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wall_sign[facing=west,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wood[axis=x]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wood[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=low]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_brick_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=east,half=bottom,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=north,half=top,shape=inner_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=south,half=top,shape=outer_right,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stone_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_crimson_hyphae[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_jungle_wood[axis=y]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "",
+      "block": "minecraft:terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:tnt[unstable=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:tripwire_hook[attached=false,facing=east,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:tripwire_hook[attached=false,facing=north,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:tripwire_hook[attached=false,facing=west,powered=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=0]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=1]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=3]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=4]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:water[level=8]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:white_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:wither_skeleton_skull[rotation=12]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:wither_skeleton_skull[rotation=8]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:yellow_glazed_terracotta[facing=north]"
+    },
+    {
+      "char": "",
+      "block": "minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]"
+    }
+  ]
+}

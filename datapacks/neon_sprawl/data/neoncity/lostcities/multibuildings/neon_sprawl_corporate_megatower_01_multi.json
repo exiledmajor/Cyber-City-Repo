@@ -1,0 +1,21 @@
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "neoncity:neon_sprawl_corporate_megatower_01_c0_0",
+      "neoncity:neon_sprawl_corporate_megatower_01_c0_1",
+      "neoncity:neon_sprawl_corporate_megatower_01_c0_2"
+    ],
+    [
+      "neoncity:neon_sprawl_corporate_megatower_01_c1_0",
+      "neoncity:neon_sprawl_corporate_megatower_01_c1_1",
+      "neoncity:neon_sprawl_corporate_megatower_01_c1_2"
+    ],
+    [
+      "neoncity:neon_sprawl_corporate_megatower_01_c2_0",
+      "neoncity:neon_sprawl_corporate_megatower_01_c2_1",
+      "neoncity:neon_sprawl_corporate_megatower_01_c2_2"
+    ]
+  ]
+}
