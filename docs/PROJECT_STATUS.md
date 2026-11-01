@@ -26,6 +26,15 @@ One `.schem` file, `futuristic-house.schem`, is actually Litematica region-based
 - [x] Automated JSON validation and ZIP artifact publishing.
 - [x] All 15 unique schematic inputs converted in the initial successful full conversion run.
 
+## Generated output (latest successful build)
+
+- 15/15 unique schematic inputs converted; no conversion errors.
+- Input formats detected: Sponge v2, Sponge v3, and one Litematica file mislabeled as `.schem`.
+- 15 local palettes, 15,976 building parts, 386 building definitions, and 14 multibuilding definitions.
+- One standalone single-cell building and 14 multi-cell structure layouts.
+- The converter manifest records source data versions, dimensions, footprints, filler blocks, ignored block-entity counts, and all block substitutions.
+- The ZIP datapack and conversion manifest are published as GitHub Actions artifacts.
+
 ## Compatibility and known limitations
 
 - Target: Minecraft Java 1.21.1, NeoForge, Lost Cities 1.21-8.x.
@@ -37,7 +46,7 @@ One `.schem` file, `futuristic-house.schem`, is actually Litematica region-based
 
 ## Remaining validation
 
-- [ ] Inspect the final conversion manifest and fallback list after the latest build.
+- [x] Inspect the final conversion manifest and fallback list after the latest build.
 - [ ] Validate all generated registry references against the exact Lost Cities 1.21.1 NeoForge JAR.
 - [ ] Test in a fresh Minecraft 1.21.1 world with the `neon_sprawl` profile.
 - [ ] Review in-game building alignment, floor counts, multi-chunk placement, and block-state compatibility.
