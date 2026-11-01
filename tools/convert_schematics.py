@@ -109,13 +109,6 @@ def vanilla_state(state):
             base = "minecraft:iron_bars"
         elif base.endswith("_copper_chain"):
             base = "minecraft:chain"
-        elif base.endswith("_copper_trapdoor"):
-            base = "minecraft:iron_trapdoor"
-        elif base.endswith("_copper_door"):
-            base = "minecraft:iron_door"
-        elif base.endswith("_chiseled_copper"):
-            base = base.replace("_chiseled_copper", "_cut_copper")
-            drop_properties = True
         elif base.endswith("_cut_copper_stairs") or base.endswith("_cut_copper_slab"):
             base = base.rsplit("_",1)[0]
             drop_properties = True
