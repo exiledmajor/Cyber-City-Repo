@@ -28,7 +28,7 @@ The generated registry assets are written beneath `build/generated/data/neoncity
 ## Compatibility and conversion limits
 
 - Target: Minecraft Java 1.21.1, NeoForge, Lost Cities 1.21-8.x.
-- The converter reads Sponge schematic v2 and v3 layouts when their dimensions and block containers match the specification.
+- The converter reads Sponge schematic v2/v3 and detects Litematica region-based NBT files even when they have been given a `.schem` extension.
 - Only vanilla block states are retained. Non-vanilla namespaces are replaced with approximate vanilla blocks and reported in the manifest.
 - Block-entity NBT (sign text, container contents, etc.) is currently counted and reported, not restored.
 - A schematic spanning multiple chunks is emitted as a Lost Cities multibuilding.
