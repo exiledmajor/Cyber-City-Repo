@@ -80,7 +80,10 @@ def vanilla_state(state):
         original = state
         drop_properties = False
         # Backport newer vanilla content to blocks available in MC 1.21.1.
-        if base.startswith("minecraft:pale_oak_"):
+        if base.endswith("_shelf"):
+            base = "minecraft:bookshelf"
+            drop_properties = True
+        elif base.startswith("minecraft:pale_oak_"):
             base = base.replace("minecraft:pale_oak_", "minecraft:dark_oak_", 1)
         elif base in {"minecraft:pale_moss_block", "minecraft:pale_moss_carpet"}:
             base = "minecraft:moss_block" if base.endswith("_block") else "minecraft:moss_carpet"
@@ -99,9 +102,6 @@ def vanilla_state(state):
             drop_properties = True
         elif base == "minecraft:grass":
             base = "minecraft:short_grass"
-            drop_properties = True
-        elif base.endswith("_shelf"):
-            base = "minecraft:bookshelf"
             drop_properties = True
         elif base == "minecraft:exposed_lightning_rod":
             base = "minecraft:lightning_rod"
