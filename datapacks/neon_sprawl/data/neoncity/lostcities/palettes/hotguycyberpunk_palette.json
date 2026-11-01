@@ -818,34 +818,22 @@
     },
     {
       "char": "",
-      "block": "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=bottom,shape=outer_right,waterlogged=false]"
-    },
-    {
-      "char": "",
       "block": "minecraft:waxed_oxidized_copper"
     },
     {
-      "char": "",
+      "char": "",
       "block": "minecraft:waxed_weathered_copper"
     },
     {
-      "char": "",
+      "char": "",
       "block": "minecraft:waxed_weathered_cut_copper"
     },
     {
-      "char": "",
-      "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
-    },
-    {
-      "char": "",
-      "block": "minecraft:waxed_weathered_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
-    },
-    {
-      "char": "",
+      "char": "",
       "block": "minecraft:white_concrete_powder"
     },
     {
-      "char": "",
+      "char": "",
       "block": "minecraft:white_stained_glass"
     }
   ]

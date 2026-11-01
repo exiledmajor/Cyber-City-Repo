@@ -16,6 +16,7 @@
       ],
       "six_block_segments": 50,
       "palette_states": 42,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -73,6 +74,7 @@
       ],
       "six_block_segments": 50,
       "palette_states": 113,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -175,6 +177,9 @@
       ],
       "six_block_segments": 27,
       "palette_states": 486,
+      "block_fallbacks": {
+        "minecraft:grass": "minecraft:short_grass"
+      },
       "block_entities_ignored": 322,
       "vanilla_only": true,
       "buildings": [
@@ -209,6 +214,7 @@
       ],
       "six_block_segments": 19,
       "palette_states": 86,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -251,6 +257,7 @@
       ],
       "six_block_segments": 20,
       "palette_states": 72,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -297,7 +304,12 @@
         4
       ],
       "six_block_segments": 7,
-      "palette_states": 140,
+      "palette_states": 138,
+      "block_fallbacks": {
+        "minecraft:oxidized_cut_copper_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]": "minecraft:oxidized_cut_copper",
+        "minecraft:oxidized_cut_copper_slab[type=bottom,waterlogged=false]": "minecraft:oxidized_cut_copper",
+        "minecraft:oxidized_cut_copper_slab[type=top,waterlogged=false]": "minecraft:oxidized_cut_copper"
+      },
       "block_entities_ignored": 21,
       "vanilla_only": true,
       "buildings": [
@@ -328,6 +340,7 @@
       ],
       "six_block_segments": 7,
       "palette_states": 267,
+      "block_fallbacks": {},
       "block_entities_ignored": 127,
       "vanilla_only": true,
       "buildings": [
@@ -354,6 +367,7 @@
       ],
       "six_block_segments": 46,
       "palette_states": 83,
+      "block_fallbacks": {},
       "block_entities_ignored": 48,
       "vanilla_only": true,
       "buildings": [
@@ -400,6 +414,14 @@
       ],
       "six_block_segments": 5,
       "palette_states": 94,
+      "block_fallbacks": {
+        "minecraft:waxed_exposed_copper_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+        "minecraft:pale_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]"
+      },
       "block_entities_ignored": 18,
       "vanilla_only": true,
       "buildings": [
@@ -422,7 +444,12 @@
         3
       ],
       "six_block_segments": 10,
-      "palette_states": 212,
+      "palette_states": 209,
+      "block_fallbacks": {
+        "minecraft:waxed_weathered_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_weathered_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=bottom,shape=outer_right,waterlogged=false]": "minecraft:waxed_exposed_cut_copper"
+      },
       "block_entities_ignored": 70,
       "vanilla_only": true,
       "buildings": [
@@ -450,7 +477,32 @@
         10
       ],
       "six_block_segments": 54,
-      "palette_states": 1087,
+      "palette_states": 1064,
+      "block_fallbacks": {
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=west,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_weathered_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_cut_copper_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_cut_copper_slab[type=top,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_cut_copper_stairs[facing=west,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_slab[type=bottom,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_cut_copper_stairs[facing=east,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_cut_copper_slab[type=bottom,waterlogged=false]": "minecraft:waxed_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_slab[type=top,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_slab[type=bottom,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_weathered_cut_copper_stairs[facing=west,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_weathered_cut_copper_slab[type=top,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_stairs[facing=west,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_weathered_cut_copper_slab[type=bottom,waterlogged=false]": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_stairs[facing=east,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_oxidized_cut_copper_slab[type=top,waterlogged=false]": "minecraft:waxed_oxidized_cut_copper"
+      },
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -573,6 +625,7 @@
       ],
       "six_block_segments": 17,
       "palette_states": 12,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -604,6 +657,7 @@
       ],
       "six_block_segments": 19,
       "palette_states": 83,
+      "block_fallbacks": {},
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -635,6 +689,9 @@
       ],
       "six_block_segments": 9,
       "palette_states": 172,
+      "block_fallbacks": {
+        "minecraft:waxed_weathered_cut_copper_slab[type=bottom]": "minecraft:waxed_weathered_cut_copper"
+      },
       "block_entities_ignored": 0,
       "vanilla_only": true,
       "buildings": [
@@ -660,7 +717,80 @@
         7
       ],
       "six_block_segments": 41,
-      "palette_states": 438,
+      "palette_states": 396,
+      "block_fallbacks": {
+        "minecraft:pale_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=west,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=true,south=false,waterlogged=false,west=false]": "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]",
+        "minecraft:pale_oak_shelf[facing=south,powered=false,side_chain=unconnected,waterlogged=false]": "minecraft:dark_oak_shelf[facing=south,powered=false,side_chain=unconnected,waterlogged=false]",
+        "minecraft:oxidized_copper_bars[east=true,north=false,south=false,waterlogged=false,west=true]": "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=true,south=true,waterlogged=false,west=false]": "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_bars[east=true,north=false,south=false,waterlogged=false,west=true]": "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]",
+        "minecraft:waxed_copper_bars[east=false,north=true,south=true,waterlogged=false,west=false]": "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]",
+        "minecraft:pale_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_weathered_chiseled_copper": "minecraft:waxed_weathered_cut_copper",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:oxidized_copper_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_chiseled_copper": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:pale_oak_shelf[facing=east,powered=false,side_chain=unconnected,waterlogged=false]": "minecraft:dark_oak_shelf[facing=east,powered=false,side_chain=unconnected,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=true,south=true,waterlogged=false,west=true]": "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=true]",
+        "minecraft:pale_oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_fence_gate[facing=east,in_wall=false,open=true,powered=false]": "minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=false]",
+        "minecraft:waxed_exposed_copper_chain[axis=y,waterlogged=false]": "minecraft:chain[axis=y,waterlogged=false]",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_exposed_copper_bars[east=true,north=false,south=false,waterlogged=false,west=false]": "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=false]",
+        "minecraft:pale_oak_shelf[facing=west,powered=false,side_chain=unconnected,waterlogged=false]": "minecraft:dark_oak_shelf[facing=west,powered=false,side_chain=unconnected,waterlogged=false]",
+        "minecraft:exposed_lightning_rod[facing=up,powered=false,waterlogged=false]": "minecraft:lightning_rod[facing=up,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=false,south=false,waterlogged=false,west=true]": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]",
+        "minecraft:waxed_exposed_copper_bars[east=true,north=true,south=false,waterlogged=false,west=false]": "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=true,south=false,waterlogged=false,west=true]": "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=true]",
+        "minecraft:waxed_exposed_copper_bars[east=true,north=false,south=true,waterlogged=false,west=true]": "minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=true]",
+        "minecraft:waxed_exposed_copper_bars[east=true,north=false,south=true,waterlogged=false,west=false]": "minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=false]",
+        "minecraft:oxidized_copper_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=false,south=true,waterlogged=false,west=true]": "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=true]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]": "minecraft:dark_oak_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]",
+        "minecraft:oxidized_copper_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_copper_chain[axis=x,waterlogged=false]": "minecraft:chain[axis=x,waterlogged=false]",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=south,half=top,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:pale_oak_fence_gate[facing=north,in_wall=false,open=true,powered=false]": "minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=true,powered=false]",
+        "minecraft:oxidized_copper_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:pale_moss_block": "minecraft:moss_block",
+        "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": "minecraft:waxed_exposed_cut_copper",
+        "minecraft:pale_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_fence_gate[facing=west,in_wall=false,open=true,powered=false]": "minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=false]",
+        "minecraft:waxed_exposed_copper_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]": "minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+        "minecraft:pale_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]": "minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]",
+        "minecraft:waxed_exposed_copper_bars[east=false,north=false,south=true,waterlogged=false,west=false]": "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=false]"
+      },
       "block_entities_ignored": 556,
       "vanilla_only": true,
       "buildings": [
