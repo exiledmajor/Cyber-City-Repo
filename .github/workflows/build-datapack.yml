@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: neon-sprawl-build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -39,6 +43,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p datapacks/neon_sprawl/data
+          rm -rf datapacks/neon_sprawl/data/neoncity
           cp -a build/generated/data/neoncity datapacks/neon_sprawl/data/
           cp build/generated/manifest.json datapacks/neon_sprawl/SCHEMATIC_MANIFEST.json
           python - <<'PY'
@@ -66,6 +71,7 @@ jobs:
             echo "Generated datapack assets are already current."
           else
             git commit -m "Build Neon Sprawl assets from source schematics"
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
 
