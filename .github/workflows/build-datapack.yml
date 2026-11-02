@@ -58,16 +58,14 @@ jobs:
           rm -rf datapacks/neon_sprawl/data/neoncity
           cp -a build/generated/data/neoncity datapacks/neon_sprawl/data/
           cp build/generated/manifest.json datapacks/neon_sprawl/SCHEMATIC_MANIFEST.json
+          python tools/validate_lostcities_assets.py
           python - <<'PY'
           import json
           from pathlib import Path
-          files = list(Path("datapacks/neon_sprawl").rglob("*.json"))
-          for path in files:
-              json.loads(path.read_text(encoding="utf-8"))
           manifest = json.loads(Path("datapacks/neon_sprawl/SCHEMATIC_MANIFEST.json").read_text())
           if manifest["errors"]:
-              print(f"WARNING: {len(manifest['errors'])} schematic(s) were skipped: {manifest['errors']}")
-          print(f"Validated {len(files)} JSON files; converted {len(manifest['converted'])} schematics.")
+              raise SystemExit(f"Conversion errors: {manifest['errors']}")
+          print(f"Converted {len(manifest['converted'])} schematics with no conversion errors.")
           PY
           mkdir -p build/release
           cd datapacks/neon_sprawl
