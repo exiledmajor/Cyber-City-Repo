@@ -1,0 +1,55 @@
+{
+  "dimx": 7,
+  "dimz": 5,
+  "buildings": [
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c0_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c0_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c0_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c0_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c0_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c1_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c1_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c1_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c1_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c1_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c2_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c2_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c2_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c2_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c2_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c3_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c3_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c3_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c3_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c3_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c4_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c4_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c4_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c4_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c4_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c5_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c5_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c5_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c5_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c5_4"
+    ],
+    [
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c6_0",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c6_1",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c6_2",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c6_3",
+      "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_c6_4"
+    ]
+  ]
+}

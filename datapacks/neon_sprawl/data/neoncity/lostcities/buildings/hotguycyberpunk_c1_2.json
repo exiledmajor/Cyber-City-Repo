@@ -1,0 +1,52 @@
+{
+  "filler": "",
+  "rubble": "",
+  "refpalette": "neoncity:hotguycyberpunk_palette",
+  "minfloors": 9,
+  "maxfloors": 9,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:hotguycyberpunk_c1_2_f9",
+      "top": true
+    }
+  ]
+}

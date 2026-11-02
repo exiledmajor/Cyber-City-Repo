@@ -1,0 +1,456 @@
+{
+  "palette": [
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "!",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "#",
+      "block": "minecraft:jungle_planks"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "char": "%",
+      "block": "minecraft:magma_block"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:mangrove_planks"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:mossy_cobblestone"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:mud"
+    },
+    {
+      "char": "+",
+      "block": "minecraft:mud_bricks"
+    },
+    {
+      "char": ",",
+      "block": "minecraft:muddy_mangrove_roots"
+    },
+    {
+      "char": "-",
+      "block": "minecraft:nether_bricks"
+    },
+    {
+      "char": ".",
+      "block": "minecraft:nether_gold_ore"
+    },
+    {
+      "char": "/",
+      "block": "minecraft:nether_quartz_ore"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:acacia_log"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:acacia_planks"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:acacia_wood"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:ancient_debris"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:barrel"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:basalt"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:bedrock"
+    },
+    {
+      "char": "8",
+      "block": "minecraft:black_concrete"
+    },
+    {
+      "char": "9",
+      "block": "minecraft:black_concrete_powder"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "char": ";",
+      "block": "minecraft:netherite_block"
+    },
+    {
+      "char": "<",
+      "block": "minecraft:netherrack"
+    },
+    {
+      "char": "=",
+      "block": "minecraft:note_block"
+    },
+    {
+      "char": ">",
+      "block": "minecraft:obsidian"
+    },
+    {
+      "char": "?",
+      "block": "minecraft:orange_terracotta"
+    },
+    {
+      "char": "@",
+      "block": "minecraft:packed_mud"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:black_glazed_terracotta"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:black_terracotta"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:black_wool"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:blackstone"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:brown_concrete"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:brown_concrete_powder"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:brown_glazed_terracotta"
+    },
+    {
+      "char": "H",
+      "block": "minecraft:brown_terracotta"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:brown_wool"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:cartography_table"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:chiseled_deepslate"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:chiseled_nether_bricks"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:coal_ore"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:cobbled_deepslate"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:copper_block"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:cracked_deepslate_bricks"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:cracked_deepslate_tiles"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:cracked_nether_bricks"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:crimson_hyphae"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:crimson_nylium"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:cut_copper"
+    },
+    {
+      "char": "[",
+      "block": "minecraft:polished_basalt"
+    },
+    {
+      "char": "]",
+      "block": "minecraft:polished_blackstone"
+    },
+    {
+      "char": "^",
+      "block": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "char": "_",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dark_oak_log"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:dark_oak_planks"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dark_oak_wood"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dead_horn_coral_block"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:deepslate"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:deepslate_coal_ore"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:deepslate_copper_ore"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:deepslate_diamond_ore"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:deepslate_gold_ore"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:deepslate_iron_ore"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:deepslate_redstone_ore"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:deepslate_tiles"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:dripstone_block"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:exposed_copper"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:exposed_cut_copper"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:fletching_table"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:gilded_blackstone"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:glowstone"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:gold_ore"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:gray_concrete"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:gray_concrete_powder"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:gray_glazed_terracotta"
+    },
+    {
+      "char": "z",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "{",
+      "block": "minecraft:purple_terracotta"
+    },
+    {
+      "char": "|",
+      "block": "minecraft:raw_copper_block"
+    },
+    {
+      "char": "}",
+      "block": "minecraft:raw_iron_block"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:red_concrete"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_concrete_powder"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_glazed_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_nether_bricks"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:red_wool"
+    },
+    {
+      "char": "",
+      "block": "minecraft:redstone_lamp"
+    },
+    {
+      "char": "",
+      "block": "minecraft:reinforced_deepslate"
+    },
+    {
+      "char": "",
+      "block": "minecraft:sculk"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smithing_table"
+    },
+    {
+      "char": "",
+      "block": "minecraft:smooth_basalt"
+    },
+    {
+      "char": "",
+      "block": "minecraft:soul_sand"
+    },
+    {
+      "char": "",
+      "block": "minecraft:soul_soil"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_log"
+    },
+    {
+      "char": "",
+      "block": "minecraft:spruce_wood"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_acacia_log"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_dark_oak_log"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_dark_oak_wood"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_mangrove_log"
+    },
+    {
+      "char": "",
+      "block": "minecraft:stripped_oak_log"
+    },
+    {
+      "char": "",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "",
+      "block": "minecraft:terracotta"
+    },
+    {
+      "char": "",
+      "block": "minecraft:tuff"
+    },
+    {
+      "char": "",
+      "block": "minecraft:warped_nylium"
+    }
+  ]
+}

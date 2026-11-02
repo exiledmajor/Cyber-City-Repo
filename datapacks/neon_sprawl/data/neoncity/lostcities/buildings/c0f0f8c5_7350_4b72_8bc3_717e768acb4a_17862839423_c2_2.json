@@ -1,0 +1,92 @@
+{
+  "filler": "1",
+  "rubble": "1",
+  "refpalette": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_palette",
+  "minfloors": 19,
+  "maxfloors": 19,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f9",
+      "floor": 9
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f10",
+      "floor": 10
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f11",
+      "floor": 11
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f12",
+      "floor": 12
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f13",
+      "floor": 13
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f14",
+      "floor": 14
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f15",
+      "floor": 15
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f16",
+      "floor": 16
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f17",
+      "floor": 17
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f18",
+      "floor": 18
+    },
+    {
+      "part": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2_f19",
+      "top": true
+    }
+  ]
+}

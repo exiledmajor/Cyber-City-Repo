@@ -1,0 +1,120 @@
+{
+  "filler": "",
+  "rubble": "",
+  "refpalette": "neoncity:cyberpunk_buildings_by_mine67_palette",
+  "minfloors": 26,
+  "maxfloors": 26,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "overrideFloors": true,
+  "parts": [
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f0",
+      "ground": true
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f1",
+      "floor": 1
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f2",
+      "floor": 2
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f3",
+      "floor": 3
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f4",
+      "floor": 4
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f5",
+      "floor": 5
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f6",
+      "floor": 6
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f7",
+      "floor": 7
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f8",
+      "floor": 8
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f9",
+      "floor": 9
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f10",
+      "floor": 10
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f11",
+      "floor": 11
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f12",
+      "floor": 12
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f13",
+      "floor": 13
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f14",
+      "floor": 14
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f15",
+      "floor": 15
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f16",
+      "floor": 16
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f17",
+      "floor": 17
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f18",
+      "floor": 18
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f19",
+      "floor": 19
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f20",
+      "floor": 20
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f21",
+      "floor": 21
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f22",
+      "floor": 22
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f23",
+      "floor": 23
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f24",
+      "floor": 24
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f25",
+      "floor": 25
+    },
+    {
+      "part": "neoncity:cyberpunk_buildings_by_mine67_c2_2_f26",
+      "top": true
+    }
+  ]
+}

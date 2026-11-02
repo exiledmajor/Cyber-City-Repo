@@ -1,0 +1,41 @@
+{
+  "dimx": 5,
+  "dimz": 5,
+  "buildings": [
+    [
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c0_0",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c0_1",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c0_2",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c0_3",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c0_4"
+    ],
+    [
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c1_0",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c1_1",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c1_2",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c1_3",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c1_4"
+    ],
+    [
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_0",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_1",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_2",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_3",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c2_4"
+    ],
+    [
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c3_0",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c3_1",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c3_2",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c3_3",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c3_4"
+    ],
+    [
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c4_0",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c4_1",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c4_2",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c4_3",
+      "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_c4_4"
+    ]
+  ]
+}

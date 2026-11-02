@@ -1,0 +1,15 @@
+{
+  "outsidestyle": "outside",
+  "citystyles": [
+    {
+      "factor": 1.0,
+      "citystyle": "neoncity:neon_city"
+    }
+  ],
+  "multisettings": {
+    "areasize": 10,
+    "minimum": 1,
+    "maximum": 3,
+    "attempts": 50
+  }
+}

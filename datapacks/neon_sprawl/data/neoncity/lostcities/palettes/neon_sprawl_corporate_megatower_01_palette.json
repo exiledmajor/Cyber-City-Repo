@@ -1,0 +1,52 @@
+{
+  "palette": [
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:black_concrete"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:copper_block"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:cyan_stained_glass"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:end_rod"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:gray_concrete"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:iron_bars"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:light_gray_concrete"
+    },
+    {
+      "char": "8",
+      "block": "minecraft:polished_blackstone"
+    },
+    {
+      "char": "9",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:tinted_glass"
+    }
+  ]
+}

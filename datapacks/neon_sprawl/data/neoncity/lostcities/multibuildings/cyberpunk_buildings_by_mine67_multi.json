@@ -1,0 +1,26 @@
+{
+  "dimx": 4,
+  "dimz": 3,
+  "buildings": [
+    [
+      "neoncity:cyberpunk_buildings_by_mine67_c0_0",
+      "neoncity:cyberpunk_buildings_by_mine67_c0_1",
+      "neoncity:cyberpunk_buildings_by_mine67_c0_2"
+    ],
+    [
+      "neoncity:cyberpunk_buildings_by_mine67_c1_0",
+      "neoncity:cyberpunk_buildings_by_mine67_c1_1",
+      "neoncity:cyberpunk_buildings_by_mine67_c1_2"
+    ],
+    [
+      "neoncity:cyberpunk_buildings_by_mine67_c2_0",
+      "neoncity:cyberpunk_buildings_by_mine67_c2_1",
+      "neoncity:cyberpunk_buildings_by_mine67_c2_2"
+    ],
+    [
+      "neoncity:cyberpunk_buildings_by_mine67_c3_0",
+      "neoncity:cyberpunk_buildings_by_mine67_c3_1",
+      "neoncity:cyberpunk_buildings_by_mine67_c3_2"
+    ]
+  ]
+}

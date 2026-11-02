@@ -1,0 +1,348 @@
+{
+  "palette": [
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "!",
+      "block": "minecraft:pink_glazed_terracotta"
+    },
+    {
+      "char": "#",
+      "block": "minecraft:pink_terracotta"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "%",
+      "block": "minecraft:prismarine"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:prismarine_bricks"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:purple_concrete"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:purple_glazed_terracotta"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:purple_terracotta"
+    },
+    {
+      "char": "+",
+      "block": "minecraft:red_concrete"
+    },
+    {
+      "char": ",",
+      "block": "minecraft:red_concrete_powder"
+    },
+    {
+      "char": "-",
+      "block": "minecraft:red_glazed_terracotta"
+    },
+    {
+      "char": ".",
+      "block": "minecraft:red_mushroom_block"
+    },
+    {
+      "char": "/",
+      "block": "minecraft:red_nether_bricks"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:acacia_log"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:acacia_planks"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:bedrock"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:black_concrete"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:black_concrete_powder"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:black_glazed_terracotta"
+    },
+    {
+      "char": "8",
+      "block": "minecraft:black_terracotta"
+    },
+    {
+      "char": "9",
+      "block": "minecraft:black_wool"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:red_sand"
+    },
+    {
+      "char": ";",
+      "block": "minecraft:red_terracotta"
+    },
+    {
+      "char": "<",
+      "block": "minecraft:red_wool"
+    },
+    {
+      "char": "=",
+      "block": "minecraft:redstone_lamp"
+    },
+    {
+      "char": ">",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "?",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "@",
+      "block": "minecraft:soul_sand"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:blue_terracotta"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:brown_terracotta"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:clay"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:coal_ore"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "H",
+      "block": "minecraft:cyan_concrete"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:cyan_glazed_terracotta"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:cyan_wool"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:dark_oak_log"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:dark_prismarine"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:diamond_block"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:diamond_ore"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:emerald_ore"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:glowstone"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:gold_ore"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:gray_concrete"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:gray_concrete_powder"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:gray_glazed_terracotta"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:green_concrete_powder"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:green_terracotta"
+    },
+    {
+      "char": "[",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "]",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "^",
+      "block": "minecraft:white_terracotta"
+    },
+    {
+      "char": "_",
+      "block": "minecraft:yellow_terracotta"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:lapis_block"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:lapis_ore"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:light_blue_concrete"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:light_blue_wool"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:lime_terracotta"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:magenta_concrete"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:magenta_glazed_terracotta"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:magenta_wool"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:magma_block"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:mossy_cobblestone"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:nether_bricks"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:nether_quartz_ore"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:netherrack"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:note_block"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:oak_log"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:obsidian"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:orange_concrete_powder"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:orange_glazed_terracotta"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:pink_concrete"
+    },
+    {
+      "char": "z",
+      "block": "minecraft:pink_concrete_powder"
+    }
+  ]
+}

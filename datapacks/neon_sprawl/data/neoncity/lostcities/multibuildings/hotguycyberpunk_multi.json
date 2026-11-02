@@ -1,0 +1,16 @@
+{
+  "dimx": 2,
+  "dimz": 3,
+  "buildings": [
+    [
+      "neoncity:hotguycyberpunk_c0_0",
+      "neoncity:hotguycyberpunk_c0_1",
+      "neoncity:hotguycyberpunk_c0_2"
+    ],
+    [
+      "neoncity:hotguycyberpunk_c1_0",
+      "neoncity:hotguycyberpunk_c1_1",
+      "neoncity:hotguycyberpunk_c1_2"
+    ]
+  ]
+}

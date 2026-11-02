@@ -1,0 +1,70 @@
+{
+  "inherit": "lostcities:citystyle_standard",
+  "style": "standard",
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 1.5,
+        "value": "neoncity:futuristic_house_c0_0"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 2.0,
+        "value": "neoncity:4108a593_f069_459b_8d0b_8ff6bdcfd4d1_17722363198_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:792207b0_5c7c_43ba_babb_070d08f93464_17935384843_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:cyberpunk_buildings_by_mine67_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:bad7c114_8d22_4228_9928_20576765f9d0_17723025055_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:c0f0f8c5_7350_4b72_8bc3_717e768acb4a_17862839423_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:cyberpunk_apartment_building_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:cyberpunk_store_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:cyberpunkcasino_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:hotguycyberpunk_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:mega_cyber_thing_1_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:neon_sprawl_corporate_megatower_01_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:neon_sprawl_01_corporate_megatower_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:neon_sprawl_02_vertical_slum_block_multi"
+      },
+      {
+        "factor": 2.0,
+        "value": "neoncity:ussr_gosplan_cyberpunk_multi"
+      }
+    ]
+  }
+}

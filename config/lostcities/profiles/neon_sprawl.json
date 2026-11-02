@@ -1,0 +1,35 @@
+{
+  "public": true,
+  "lostcity": {
+    "description": "Cyber City — dense, intact Neon Sprawl",
+    "worldStyle": "neoncity:neon_sprawl",
+    "landscapeType": "default",
+    "buildingChance": 0.78,
+    "buildingMinFloors": 2,
+    "buildingMaxFloors": 60,
+    "buildingMinFloorsChance": 5,
+    "buildingMaxFloorsChance": 12,
+    "ruinChance": 0,
+    "vineChance": 0,
+    "randomLeafBlockChance": 0,
+    "rubbleLayer": false,
+    "generateLighting": false,
+    "streetGenerationMode": "HIERARCHICAL_GRID_V1"
+  },
+  "cities": {
+    "cityChance": 0.025,
+    "cityMinRadius": 128,
+    "cityMaxRadius": 320
+  },
+  "explosions": {
+    "explosionChance": 0,
+    "miniExplosionChance": 0
+  },
+  "cityspheres": {},
+  "client": {
+    "fogRed": 0.24,
+    "fogGreen": 0.045,
+    "fogBlue": 0.34,
+    "fogDensity": 0.035
+  }
+}

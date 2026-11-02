@@ -1,0 +1,67 @@
+name: Sync source schematics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Cyber City
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout schematic reference repository
+        uses: actions/checkout@v4
+        with:
+          repository: exiledmajor/Reference
+          ref: main
+          path: .schematic-reference
+
+      - name: Synchronize Sponge schematics
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p schematics/source
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import shutil
+
+          source = Path(".schematic-reference/Schems1/schemmys")
+          target = Path("schematics/source")
+          seen = {}
+          duplicates = []
+          for path in sorted(source.glob("*.schem")):
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              if digest in seen:
+                  duplicates.append((path.name, seen[digest]))
+                  continue
+              seen[digest] = path.name
+              shutil.copy2(path, target / path.name)
+          current = set(seen.values())
+          for path in target.glob("*.schem"):
+              if path.name not in current:
+                  path.unlink()
+          print(f"Imported {len(seen)} unique Sponge schematics.")
+          for duplicate, original in duplicates:
+              print(f"Skipped duplicate: {duplicate} (same content as {original})")
+          PY
+
+      - name: Commit synchronized files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schematics/source
+          if git diff --cached --quiet; then
+            echo "No schematic changes to commit."
+          else
+            git commit -m "Sync source schematics from Reference"
+            git push
+          fi
