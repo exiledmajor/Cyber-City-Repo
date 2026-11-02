@@ -64,8 +64,8 @@ def check_palette(path: Path, obj: dict) -> set[str]:
             fail(str(path), f"palette[{i}] must be an object")
             continue
         ch = entry.get("char")
-        if not isinstance(ch, str) or len(ch) != 1:
-            fail(str(path), f"palette[{i}].char must be exactly one Unicode character")
+        if not isinstance(ch, str) or len(ch) != 1 or ord(ch) > 0xFFFF:
+            fail(str(path), f"palette[{i}].char must be exactly one BMP/UTF-16 character")
             continue
         chars.append(ch)
         block = entry.get("block")
